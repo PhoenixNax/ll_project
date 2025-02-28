@@ -3,7 +3,8 @@ from django.db import models
 # Create your models here.
 # https://docs.djangoproject.com/en/5.1/
 # https://docs.djangoproject.com/en/4.1/topics/db/queries
-
+# https://docs.djangoproject.com/en/4.1/ref/templates. 
+# https://docs.djangoproject.com/en/4.1/topics/db/forms/
 class Topic(models.Model):
     """""A topic the user is learning about."""
     text = models.CharField(max_length=200)
